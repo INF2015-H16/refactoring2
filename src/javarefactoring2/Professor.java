@@ -23,6 +23,7 @@ public class Professor extends Person {
                 + firstName.toUpperCase().trim().substring(1, 3);
 
         System.out.println("New professor: " + employeeID);
+        setPhotoUrl("zied.jpg");
     }
 
     public void setPhotoUrl(String photoName) {
